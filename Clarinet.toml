@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/integrity-assurance.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.memory-encoding]
+path = 'contracts/memory-encoding.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
